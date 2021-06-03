@@ -1,0 +1,122 @@
+body{
+  text-align: center;
+}
+
+.agrupar{
+  width: 980px;
+  border: 1px solid black;
+  margin: 15px auto;
+  padding: 40px;
+}
+
+.cabecera{
+  background: burlywood;
+  border: 1px solid #999999;
+  padding: 20px
+}
+
+.menu{
+  background: #ccc;
+  padding: 15px;
+  text-align: left;
+}
+
+.menu li{
+  list-style: none;
+  padding: 5px;
+  font: bold 14px verdana;
+}
+
+.cabecera h1{
+  text-align: left;
+}
+
+.seccion{
+  margin: 0px;
+  width: 900px;
+  border: 1px solid black;
+}
+
+.columna{
+  width: 300px;
+  float: left;
+  border: 1px solid black;
+  margin: 20px 0;
+}
+
+.pie{
+  clear: both;
+  padding: 20px;
+  background: #2d3436;
+  color: white;
+}
+
+article{
+  background: burlywood;
+  border: 1px solid #999;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+article footer{
+  text-align: right;
+  margin-top: 20px;
+}
+
+time{
+  color: #999;
+}
+
+img{
+  width: 600px;
+  display: block;
+  margin: 20px auto;
+}
+
+.columna blockquote{
+  border: 1px solid black;
+  padding: 40px;
+  background: burlywood;
+  margin-bottom: 20px;
+}
+
+.subtitulo{
+  font-size: 50px;
+}
+
+.destino{
+  font-size: 30px;
+}
+
+*{box-sizing:border-box;}
+
+		.container{
+			width:75%;
+			max-width:900px;
+			padding:32px 32px;
+			margin:auto;
+            border: 5px solid black;
+		}
+
+		.social{
+			width:48px;
+			position:fixed;
+			top:50px;
+			right:15px;
+		}
+
+        .social img{
+            width: 48px;
+            height: 48px;
+        }
+
+     	.social{
+			top:50%;
+			height:205px;
+			margin-top:-100px;
+		}
